@@ -1,6 +1,5 @@
 //generateToken 
 const jwt=require('jsonwebtoken');
-const { password } = require('pg/lib/defaults');
 
 const generateJwtTokens=(email,password)=>{
    
